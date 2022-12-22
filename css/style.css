@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header nav{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul a{
+   display: flex;
+   padding: 42px 11px 29px 14px;
+   color: #4e9f0d;
+   transition: 0.5s;
+}
+
+header nav ul a:hover{
+    background: #4e9f0d;
+    color: #fff;
+}
+header nav .logo{
+    background: #4e9f0d;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex; 
+    border: 3px solid #62be19;
+    border-radius: 8px;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between; 
+
+}
+.header-text h1{
+    font-size: 72px;
+    color: #69cf17;
+    margin-top: 248px;
+    margin-bottom: 19px;
+}
+.header-text h2{
+    font-size: 36px;
+    color: #69cf17; 
+}
+.header-text p{
+    font-size: 18px;
+    color: #b83232;
+}
+header{
+    background: url(../img/Hamburger_Tomatoes_French_fries_Knife_Black_576869_1280x853.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+}
+.header-text{
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+}
